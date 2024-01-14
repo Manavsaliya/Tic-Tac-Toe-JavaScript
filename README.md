@@ -11,7 +11,7 @@ again button or mordern designing
 - Reset Button and Play Again Button
 
 Play Online
-Click Here :- [Tic Tac Toe](https://rock-paper-scissor-javascript-two.vercel.app/).
+Click Here :- [Tic Tac Toe](https://rock-paper-scissor-javascript-two.vercel.app/)
 
 ## Screenshots of Game
 
