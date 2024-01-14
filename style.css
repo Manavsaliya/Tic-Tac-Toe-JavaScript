@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #053574;
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0;
+}
+.heading h1 {
+  font-size: 6vmin;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 0.4s ease;
+}
+.heading h1:hover {
+  color: rgb(240, 210, 210);
+  cursor: grab;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.game {
+  width: 60vmin;
+  height: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  background-color: #000711;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5vmin;
+  font-weight: bold;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  transition: font-size 0.2s ease;
+}
+
+.box:hover {
+  font-size: 5.5vmin;
+}
+
+#reset-btn {
+  width: 25vmin;
+  height: 6.6vmin;
+  color: rgb(240, 224, 224);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #00132d;
+  border: none;
+  margin-top: -1rem;
+  font-size: 3vmin;
+  font-weight: 400;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: border-color 0.2s ease-out, font-size 0.3s ease-out;
+}
+
+#reset-btn:hover {
+  color: white;
+  font-size: 3.4vmin;
+}
+
+.winner {
+  width: 100%;
+  position: absolute;
+  top: 5.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.winner #win-tie {
+  color: white;
+  font-size: 4vmin;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.winner #newBtn {
+  width: 25vmin;
+  height: 6.6vmin;
+  color: rgb(240, 224, 224);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #00132d;
+  border: none;
+  margin-top: 15px;
+  font-size: 3vmin;
+  font-weight: 400;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: border-color 0.2s ease-out, font-size 0.3s ease-out;
+}
+
+.winner #newBtn:hover {
+  color: white;
+  font-size: 3.4vmin;
+}
+
+.hide {
+  display: none;
+}
