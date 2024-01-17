@@ -3,7 +3,7 @@
 Make Tic-tac-toe game using HTML, CSS, JavaScript with reset button and play
 again button or mordern designing
 
-** Features:- **
+**Features:-**
 
 - O and X has diffrent Colors
 - Who is Winning Display
